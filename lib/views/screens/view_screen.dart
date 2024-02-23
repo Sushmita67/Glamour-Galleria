@@ -444,7 +444,7 @@ class _ViewScreenState extends State<ViewScreen> {
                                                 child: Image.asset(
                                                     AllProducts[i].image)),
                                           ),
-                                          SizedBox(width: 10,),
+                                          const SizedBox(width: 10,),
                                           Expanded(
                                             flex: 4,
                                             child: Column(
@@ -525,73 +525,3 @@ class _ViewScreenState extends State<ViewScreen> {
     );
   }
 }
-
-
-// Widget tesssst(){
-//   return ListTile(
-//
-//     subtitle: Column(
-//       crossAxisAlignment:
-//       CrossAxisAlignment.start,
-//       children: [
-//         Row(
-//           children: [
-//             Padding(
-//               padding:
-//               const EdgeInsets.symmetric(
-//                   vertical: 4.0,
-//                   horizontal: 10),
-//               child: Text(
-//                 AllProducts[i].category,
-//                 style: const TextStyle(
-//                   color: Colors.grey,
-//                   fontWeight: FontWeight.w700,
-//                   letterSpacing: 2,
-//                   fontSize: 16,
-//                 ),
-//               ),
-//             ),
-//             const Spacer(),
-//             ElevatedButton(
-//               autofocus: false,
-//               style: ButtonStyle(
-//                 backgroundColor:
-//                 MaterialStateProperty.all(
-//                   Colors.red.shade500,
-//                 ),
-//               ),
-//               onPressed: () {
-//                 Navigator.of(context)
-//                     .pushNamed('DetailPage',
-//                     arguments:
-//                     AllProducts[i]);
-//               },
-//               child: const Text(
-//                 'Order Now',
-//                 style: TextStyle(
-//                   fontSize: 10,
-//                   fontWeight: FontWeight.bold,
-//                   color: Colors.white,
-//                 ),
-//               ),
-//             ),
-//           ],
-//         ),
-//         const SizedBox(
-//           height: 8,
-//         ),
-//         Row(
-//           mainAxisAlignment:
-//           MainAxisAlignment.spaceBetween,
-//           children: const [
-//             Text('⭐️ 5.4'),
-//             Text('⏰ 5-10 min'),
-//             SizedBox(
-//               width: 5,
-//             ),
-//           ],
-//         ),
-//       ],
-//     ),
-//   );
-// }

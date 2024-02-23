@@ -2,6 +2,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get_navigation/src/root/get_material_app.dart';
 import 'package:online_book_store/views/screens/detail_page.dart';
+import 'package:online_book_store/views/screens/favourite_list_screen.dart';
 import 'package:online_book_store/views/screens/home_page.dart';
 import 'package:online_book_store/views/screens/intro_screen.dart';
 import 'package:online_book_store/views/screens/log_in_screen.dart';
@@ -49,6 +50,7 @@ class _myAppState extends State<myApp> {
             'homePage': (context) => HomePage(),
             'viewScreen': (context) => ViewScreen(),
              'DetailPage': (context) => DetailPage(),
+             'favouriteScreen': (context) => FavouriteScreen(),
 
 
           },
