@@ -7,6 +7,7 @@ import 'package:online_book_store/views/screens/log_in_screen.dart';
 import 'package:online_book_store/views/screens/log_sign_page.dart';
 import 'package:online_book_store/views/screens/sign_in_screen.dart';
 import 'package:online_book_store/views/screens/splash_screen.dart';
+import 'package:online_book_store/views/screens/view_screen.dart';
 import 'package:provider/provider.dart';
 
 import 'controller/provider/cart_provider.dart';
@@ -45,6 +46,8 @@ class _myAppState extends State<myApp> {
             'signInScreen': (context) => SignInScreen(),
             'logInScreen': (context) => LogInScreen(),
             'homePage': (context) => HomePage(),
+            'viewScreen': (context) => ViewScreen(),
+
 
           },
         );
