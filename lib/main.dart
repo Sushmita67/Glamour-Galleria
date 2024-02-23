@@ -53,7 +53,6 @@ class _myAppState extends State<myApp> {
              'DetailPage': (context) => DetailPage(),
             'favouriteScreen': (context) => FavouriteScreen(),
             'CartScreen': (context) => CartScreen(),
-
           },
         );
       },
