@@ -28,6 +28,7 @@ dependencies:
   shared_preferences:
   cloud_firestore:
   provider:
+  fake_cloud_firestore: ^2.4.8
   image_picker:
   image_picker_ios:
 
